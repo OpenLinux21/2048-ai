@@ -1,1 +1,16 @@
 .venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+plans
+.zcode/
+# runs/ is ignored; the small final artifacts are force-added via git (see README)
+runs/*
+!runs/gpu/
+runs/gpu/*
+!runs/gpu/best.pt
+!runs/gpu/metrics.jsonl
+!runs/gpu/curves.png
+!runs/gpu/eval_200.json
+!runs/gpu/eval_50_la2.json
+games/libshim2048.so

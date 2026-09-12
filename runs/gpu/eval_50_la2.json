@@ -1,0 +1,27 @@
+{
+  "checkpoint": "runs/gpu/best.pt",
+  "generation": 300,
+  "games": 50,
+  "lookahead": 2,
+  "score_mean": 10286.2,
+  "score_median": 7676.0,
+  "score_min": 56,
+  "score_max": 35544,
+  "score_std": 9845.8,
+  "max_tile_reached": 2048,
+  "reach_1024": 23,
+  "reach_2048": 9,
+  "reach_4096": 0,
+  "max_tile_distribution_ge": {
+    "64": 37,
+    "128": 37,
+    "256": 35,
+    "512": 29,
+    "1024": 23,
+    "2048": 9,
+    "4096": 0,
+    "8192": 0
+  },
+  "wall_time_s": 374.1,
+  "steps_per_s": 79
+}
